@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Vineri"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginRight="45dp"
+                android:background="#3A3F5C"
+                android:text="Vineri"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_conversion_absoluteHeight="48dp"
+                tools:layout_conversion_absoluteWidth="351dp" />
+
+            <Button
+                android:id="@+id/Glumele"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginRight="45dp"
+                android:background="#3A3F5C"
+                android:text="Gata cu glumele"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Vineri"
+                tools:layout_conversion_absoluteHeight="48dp"
+                tools:layout_conversion_absoluteWidth="351dp" />
+
+            <Button
+                android:id="@+id/scuze"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginRight="45dp"
+                android:background="#3A3F5C"
+                android:text="Scuza-ma"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Glumele"
+                tools:layout_conversion_absoluteHeight="48dp"
+                tools:layout_conversion_absoluteWidth="351dp" />
+
+            <Button
+                android:id="@+id/Arfe"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginRight="45dp"
+                android:background="#3A3F5C"
+                android:text="Ai arfe"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/scuze"
+                tools:layout_conversion_absoluteHeight="48dp"
+                tools:layout_conversion_absoluteWidth="351dp" />
+
+            <Button
+                android:id="@+id/Bulgaresti"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginRight="45dp"
+                android:background="#3A3F5C"
+                android:text="Nici ca ale tale bulgaresti"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Arfe" />
+
+            <Button
+                android:id="@+id/EstiBine"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginRight="45dp"
+                android:background="#3A3F5C"
+                android:text="Esti bine?"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Bulgaresti" />
+
+            <Button
+                android:id="@+id/nu_tie"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginRight="45dp"
+                android:background="#3A3F5C"
+                android:text="N-am vrut sa-ti trimit tie"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/EstiBine" />
+
+            <Button
+                android:id="@+id/Hitler"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginRight="45dp"
+                android:background="#3A3F5C"
+                android:text="Hitler"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/nu_tie" />
+
+            <Button
+                android:id="@+id/puscarie"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginRight="45dp"
+                android:background="#3A3F5C"
+                android:text="Puscarie"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Hitler" />
+
+            <Button
+                android:id="@+id/curaj"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginRight="45dp"
+                android:background="#3A3F5C"
+                android:text="Ai curaj"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/puscarie" />
+
+            <Button
+                android:id="@+id/frunte"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginRight="45dp"
+                android:background="#3A3F5C"
+                android:text="Ce frunte ai"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/curaj" />
+
+            <Button
+                android:id="@+id/hua"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginRight="45dp"
+                android:background="#3A3F5C"
+                android:text="huaaa"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frunte" />
+
+            <Button
+                android:id="@+id/bere"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginRight="45dp"
+                android:background="#3A3F5C"
+                android:text="Iesim la o bere"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/hua" />
+
+            <Button
+                android:id="@+id/injuri"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginRight="45dp"
+                android:background="#3A3F5C"
+                android:text="Injuri"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bere" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
